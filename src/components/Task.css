@@ -67,4 +67,23 @@
   .save-button:hover {
     background: #218838;
   }
+  @media screen and (max-width: 600px) {
+    .task-list-container {
+      padding: 10px;
+    }
   
+    .task-item {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .delete-button {
+      margin-top: 10px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .form-input {
+      margin-bottom: 10px;
+    }
+  }
